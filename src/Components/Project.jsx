@@ -1,7 +1,7 @@
 import React from 'react';
 import { IoClose } from "react-icons/io5";
 import dashboard from '../assets/dashboard.png'
-import shop from '../assets/Shopping-cart.png'
+import shop from '../assets/shopping-cart.png'
 import game from '../assets/memory-game.png'
 import calculator from '../assets/calculator.png'
 import austin from '../assets/austin.png'
