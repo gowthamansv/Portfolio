@@ -3,51 +3,51 @@
 }
 
 body, html {
-  margin: 0; /* Remove default body margin */
-  height: 100%; /* Ensure full height */
-  overflow: hidden; /* Prevent body scroll when overlay is open */
+  margin: 0; 
+  height: 100%; 
+  overflow: hidden;
 }
 
 .overlay {
   display: flex;
-  position: fixed; /* Fixed to cover full viewport */
+  position: fixed; 
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%; /* Ensure full height */
+  height: 100%; 
   justify-content: center;
   align-items: center;
-  z-index: 100; /* Above other content */
-  background-color: rgba(0, 0, 0, 0.7); /* Optional: semi-transparent background */
-  opacity: 0; /* Start invisible */
-  visibility: hidden; /* Hidden by default */
-  transition: opacity 0.5s ease, visibility 0.5s ease; /* Smooth transition */
+  z-index: 100; 
+  background-color: rgba(0, 0, 0, 0.7); 
+  opacity: 0; 
+  visibility: hidden; 
+  transition: opacity 0.5s ease, visibility 0.5s ease; 
 }
 .overlay.visible {
-  opacity: 1; /* Fully visible when active */
-  visibility: visible; /* Set to visible when active */
+  opacity: 1; 
+  visibility: visible; 
 }
 
 .overlay-content {
   text-align: center;
   border-radius: 8px;
-  width: 90%; /* Use a percentage for responsiveness */
-  max-width: 45rem; /* Set a maximum width for larger screens */
+  width: 90%; 
+  max-width: 45rem; 
   padding: 0.5rem 2.5rem 1.5rem 2.5rem;
   background-color: #FF5722;
   border-radius: 4px;
-  overflow-y: auto; /* Allow scrolling if content exceeds viewport */
-  max-height: 90vh; /* Limit height to keep it visible within viewport */
+  overflow-y: auto; 
+  max-height: 90vh; 
 }
 
-/* Hide scrollbars */
+
 .overlay-content::-webkit-scrollbar {
-  display: none; /* For Chrome, Safari and Opera */
+  display: none; 
 }
 
 .overlay-content {
-  -ms-overflow-style: none; /* For Internet Explorer and Edge */
-  scrollbar-width: none; /* For Firefox */
+  -ms-overflow-style: none; 
+  scrollbar-width: none; 
 }
 
 #wrapper {
@@ -217,10 +217,9 @@ body, html {
           background-color: rgba(255, 255, 255, 0.175);
         }
 
-  /* App.css */
 .fade-in {
   opacity: 0;
-  animation: fadeIn 1s ease-in forwards; /* Duration: 1 second */
+  animation: fadeIn 1s ease-in forwards; 
 }
 
 @keyframes fadeIn {
@@ -231,7 +230,7 @@ body, html {
     opacity: 1;
   }
 }
-/* App.css */
+
 body.is-preload #header {
   -moz-filter: blur(0.125rem);
   -webkit-filter: blur(0.125rem);
@@ -300,16 +299,16 @@ body.is-preload #header .content .inner {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: white; /* Text color */
-  background-color: #2f4f4f7a; /* Semi-transparent background */
-  padding: 10px; /* Padding around the text */
-  border-radius: 5px; /* Rounded corners */
-  opacity: 0; /* Initially hidden */
-  transition: opacity 0.6s ease; /* Smooth transition for visibility */
+  color: white; 
+  background-color: #2f4f4f7a; 
+  padding: 10px; 
+  border-radius: 5px; 
+  opacity: 0; 
+  transition: opacity 0.6s ease;
 }
 
 .overlay-title:hover {
-  opacity: 1; /* Show the title on hover */
+  opacity: 1; 
 }
 form {
   margin: 0 0 2rem 0;
