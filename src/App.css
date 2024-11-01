@@ -282,6 +282,10 @@ body.is-preload #header .content .inner {
 	margin: 0 0 1rem 0;
 }
 
+.close:hover {
+  background-color: rgba(47, 79, 79 , .4);
+}
+
 #main .aboutlist {
   list-style-type: square;
 }

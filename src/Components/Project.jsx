@@ -11,7 +11,7 @@ const Project = ({close}) => {
     return (
         <div className="" onClick={close} id='main'>
           <div className="overlay-content" onClick={(e) => e.stopPropagation()}>
-          <div className='flex justify-end'><button className='text-2xl p-2 rounded-full hover:bg-gray-200' onClick={close}><IoClose /></button></div>
+          <div className='flex justify-end'><button className='close text-2xl p-2 rounded-full' onClick={close}><IoClose /></button></div>
             <div className='flex flex-row justify-between'>
                 <h2>work</h2>
             </div>
