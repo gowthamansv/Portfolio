@@ -45,7 +45,6 @@ const App = () => {
       id="wrapper"
       className="w-full flex relative items-center flex-col h-full p-10 mobile:p-0"
     >
-      {/* Navigation Button */}
       <header
         id="header"
         className="first:mt-0 pb-10 flex relative flex-col items-center text-center p-3 mobile:p-0 mobile:pb-10 space-y-[3.5rem]"
