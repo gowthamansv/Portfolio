@@ -14,9 +14,21 @@
 
 body {
   margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+#root {
+  background-color: #2f4f4f;
+}
+
+body,
+html {
+  margin: 0;
+  height: 100%;
+  background-color: #2f4f4f;
+  /* overflow: hidden; */
 }
